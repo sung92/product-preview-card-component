@@ -1,0 +1,37 @@
+@use "../abstracts/functions" as f;
+@use "../abstracts/colors";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+mark,
+del,
+s {
+  position: relative;
+
+  &::before,
+  &::after {
+    @extend .visually-hidden !optional;
+  }
+}
+
+s::before {
+  content: ' [strike-through start] ';
+}
+s::after {
+  content: ' [strike-through end] ';
+}
+
+body {
+    padding: 0 f.rem(10px);
+    font-size: f.rem(14px);
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--color-cream);
+
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
