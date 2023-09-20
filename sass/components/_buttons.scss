@@ -1,0 +1,18 @@
+
+
+.button {
+    margin: 1em 0;
+    width: 100%;
+    padding: .8rem 0;
+    border-radius: 9px;
+    border: none;
+    font-weight: 700;
+
+    
+    color: var(--color-white);
+    background-color: var(--color-dark-cyan);
+
+    display: flex;
+    gap: 2ch;
+    justify-content: center;
+}
