@@ -7,26 +7,6 @@
     overflow: hidden;
 }
 
-@media (width > f.rem(701px)) {
-    .grid-card {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .c-product-card {
-        max-width: f.rem(600px);
-    }
-
-    .c-product-card__text-half {
-        margin: auto 1rem;
-    }
-
-    .c-product-card__ribbon {
-        margin-top: 0;
-    }
-
-}
-
 /**************************/
 /* CARD IMAGE */
 /**************************/
@@ -87,7 +67,7 @@
     align-self: center;
 }
 
-@media (width > 45em) {
+@media (width > 44em) {
     .grid-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
