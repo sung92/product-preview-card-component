@@ -23,7 +23,7 @@
     background-color: var(--color-deep-aquamarine);
 }
 
-@media (width > 44em) {
+@media (width >= 44em) {
     .button {
         margin: 2em 0 0 0;
     }

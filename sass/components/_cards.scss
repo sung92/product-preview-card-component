@@ -67,7 +67,7 @@
     align-self: center;
 }
 
-@media (width > 44em) {
+@media (width >= 44em) {
     .grid-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
